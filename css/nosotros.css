@@ -1,0 +1,21 @@
+.article-container, .staff-container {
+    display: flex;
+    width: 90%;
+    margin: 40px auto 20px;
+}
+
+.article-container img {
+    height: 20em;
+    width: auto;
+}
+
+.staff-wrapper h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.staff-container {
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
