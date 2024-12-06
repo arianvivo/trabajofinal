@@ -1,20 +1,4 @@
-h2 {
-    margin: 30px;
-    text-align: center;
-    font-size: 3em;
-    color: white;
-   animation: glow 1s ease-in-out infinite alternate;; 
-   
-}
 
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #8e9fec, 0 0 20px #fff, 0 0 30px #8e9fec, 0 0 40px #8e9fec, 0 0 50px #8e9fec, 0 0 60px #8e9fec, 0 0 70px #8e9fec;
-    }
-    to {
-        text-shadow: 0 0 10px #50a0c0, 0 0 20px #50a0c0, 0 0 30px #50a0c0, 0 0 40px #50a0c0, 0 0 50px #50a0c0, 0 0 60px #50a0c0, 0 0 70px #50a0c0;
-    }
-  }
 
 article {
     display: flex;
@@ -41,7 +25,7 @@ article {
     background-color: #b1b1b1;
 }
 
-img {
+.image-wrapper img {
     height: 100%;
     max-height: 380px;
     width: auto;

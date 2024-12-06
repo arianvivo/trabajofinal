@@ -9,6 +9,8 @@
     <script src="./js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/estilo.css">
     <script src="https://kit.fontawesome.com/ebea567a20.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="./css/sweetalert2.min.css">
 </head>
 <body>
     <header>
@@ -29,7 +31,7 @@
                             <a class="nav-link" href="servicios.html">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -45,9 +47,9 @@
         </div>
         
         <div>
-            <div class="presentation-title">
-                <h2>Soluciones en redes y comunicaciones</h2>
-            </div>
+        
+                <h2 class="title-glow">Soluciones en redes y comunicaciones</h2>
+            
             <div class="article-review-wrapper">
                 <div class="article-container">
                     <article class="main-article">
@@ -109,17 +111,10 @@
             </div>
         </div>
         
-        <div class="gallery">
-            <img src="./img/gallery/placeholder-image.jpg" alt="placeholder">
-            <img src="./img/gallery/placeholder-image.jpg" alt="placeholder">
-            <img src="./img/gallery/placeholder-image.jpg" alt="placeholder">
-            <img src="./img/gallery/placeholder-image.jpg" alt="placeholder">
-            <img src="./img/gallery/placeholder-image.jpg" alt="placeholder">
-            <img src="./img/gallery/placeholder-image.jpg" alt="placeholder">
-            <img src="./img/gallery/placeholder-image.jpg" alt="placeholder">
-            <img src="./img/gallery/placeholder-image.jpg" alt="placeholder">
-            <img src="./img/gallery/placeholder-image.jpg" alt="placeholder">
-            <img src="./img/gallery/placeholder-image.jpg" alt="placeholder">
+        <h2 class="title-glow">Galería</h2>
+        <div id="gallery" class="gallery">
+            <!-- Se cargan mediante js -->
+            <div class="loader"></div> 
         </div>
     </main>
     
@@ -137,7 +132,8 @@
             <p>@ Arian Vivo Alesso, 2024</p>
         </div>
     </footer>
-    
+    <script src="./js/sweetalert2.all.min.js"></script>
+    <script src="./js/gallery.js"></script>
     
 </body>
 </html>

@@ -2,6 +2,11 @@
     display: flex;
     width: 90%;
     margin: 40px auto 20px;
+    border: 12px groove black;
+    background-color: rgba(255, 255, 255, 0.678);
+    padding: 10px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 .article-container img {
