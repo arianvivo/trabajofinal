@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arian's Networking Solutions</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="./css/contacto.css">
     <script src="./js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/estilo.css">
-    <script src="https://kit.fontawesome.com/ebea567a20.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/sweetalert2.min.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -36,25 +37,79 @@
             </div>
         </nav>
     </header>
+    
     <main>
-
+        <div class="contact-map-wrapper">
+            <div class="contact-channels">
+                <form class="=contact-form">
+                    <h2 class="title-glow">Envianos tu consulta</h2>
+                    <div class="backgr">
+                        <div class="row">
+                            <div class="col">
+                                <label for="inputName">Nombre</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+                            </div>
+                            <div class="col">
+                                <label for="inputLastName">Apellido</label>
+                                <input type="text" class="form-control" id="inputLastName"placeholder="Apellido">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <label for="inputPhone">Telefono</label>
+                                <input type="number" class="form-control" id="inputPhone" placeholder="Telefono">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="inputMessage">Dejá tu mensaje:</label>
+                            <textarea class="form-control" id="inputMessage" rows="3"></textarea>
+                        </div>
+                        <button type="submit" id="enviar-formulario" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+                <div class="contact-information ">
+                    <h2 class="title-glow" >Canales de atención</h2>
+                    <div class="backgr contact-information-details">
+                        <ul>
+                            <li class="contact-li">Mail:contacto@ariansnetsolutions.com</li>
+                            <li class="contact-li">Telefono: +54 291 543 1234</li>
+                            <li class="contact-li">Facebook: Arian's Networking Solutions</li>
+                            <li class="contact-li">Instagram: @ariansnetsolutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="map-info">
+                <h2 class="title-glow">Visita nuestras oficinas</h2>
+                <div class="backgr">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d778.3259666109187!2d-62.266179624080905!3d-38.71083199368512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcab0de673cd%3A0xb1ab7b5fa7bd964f!2s11%20de%20Abril%20445%2C%20B8000%20Bah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1733690491153!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
     </main>
     
     <footer class="text-center text-lg-start">
         <h3>Seguinos en nuestras redes</h3>
         <div class="container d-flex justify-content-center py-5 social-container">
             
-                <a href="https://facebook.com"><img class="footer-icon" src="./img/icons/facebook.png" alt="Facebook" srcset=""></a>
-                <a href="https://youtube.com"><img class="footer-icon" src="./img/icons/youtube.png" alt="YouTube" srcset=""></a>
-                <a href="https://instagram.com"><img class="footer-icon" src="./img/icons/instagram.png" alt="Instagram" srcset=""></a>
-                <a href="https://twitter.com"><img class="footer-icon" src="./img/icons/twitter.png" alt="Twitter" srcset=""></a>
+            <a href="https://facebook.com"><img class="footer-icon" src="./img/icons/facebook.png" alt="Facebook" srcset=""></a>
+            <a href="https://youtube.com"><img class="footer-icon" src="./img/icons/youtube.png" alt="YouTube" srcset=""></a>
+            <a href="https://instagram.com"><img class="footer-icon" src="./img/icons/instagram.png" alt="Instagram" srcset=""></a>
+            <a href="https://twitter.com"><img class="footer-icon" src="./img/icons/twitter.png" alt="Twitter" srcset=""></a>
         </div>
         
         <div class="text-center text-white p-3 copyright">
             <p>@ Arian Vivo Alesso, 2024</p>
         </div>
     </footer>
-    
-    
+    <script src="./js/sweetalert2.all.min.js"></script>
+    <script src="./js/contacto.js"></script>
 </body>
 </html>

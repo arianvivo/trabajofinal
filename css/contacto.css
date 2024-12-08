@@ -1,0 +1,46 @@
+.backgr {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.678);
+    border: 12px groove black;
+    height: 100%;
+}
+
+
+.contact-map-wrapper {
+    width: 80%;
+    margin: 20px auto;
+    /* padding: 10px;
+    background-color: rgba(255, 255, 255, 0.678);
+    padding: 10px;
+    border: 12px groove black; */
+}
+
+.contact-channels{
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    gap: 10%;
+    padding: 10px;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.map-info {
+    margin: 50px auto;
+}
+
+.map-info iframe {
+    display: block;
+    margin: auto;
+}
+
+.contact-information-details ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact-information-details ul li {
+
+    font-size: 1.5em;
+}
