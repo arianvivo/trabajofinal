@@ -23,7 +23,7 @@
     background-color: rgb(255, 0, 0);
 }
 .contact-channels{
-    width: 80%;
+    width: 95%;
     display: flex;
     margin: 20px auto;
     gap: 10%;
@@ -60,4 +60,30 @@
     width: fit-content;
     padding: 5%;
     margin: auto;
+}
+
+#contact-table {
+    margin-top: 10px;
+    display: none;
+    margin: auto;
+    width: 100%
+}
+
+#contact-table table {
+    width: 100%;
+}
+
+thead,tbody {
+    border: 1px solid black;
+}
+
+thead tr {
+    background-color: rgb(3, 3, 44);
+}
+thead tr td {
+    color: white;
+}
+
+td{
+    text-align: center;
 }

@@ -47,6 +47,10 @@ sendForm.addEventListener("click", (e) => {
     e.preventDefault()
     cleanWarnings()
     if (checkFields()){
+        let contactName = document.getElementById("inputName").value
+        let contactLastName = document.getElementById("inputLastName").value
+        let contactMail = document.getElementById("inputEmail").value
+        loadContacts(contactName, contactLastName, contactMail)
         Swal.fire({
             text: "Enviado!",
             icon: "success"
@@ -54,3 +58,9 @@ sendForm.addEventListener("click", (e) => {
         cleanFields()
     }
 })
+
+const loadContacts = (contactName, contactLastName, contactMail) => {
+    document.getElementById("contact-table").style.display = "block"
+    let domTableBody =  document.getElementById("contact-table-body")
+    domTableBody.innerHTML += "<td>" + contactName + " " + contactLastName +"</td><td>"+contactMail+"</td>"
+}
