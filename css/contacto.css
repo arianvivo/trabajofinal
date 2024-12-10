@@ -1,20 +1,21 @@
 .backgr {
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: rgba(255, 255, 255, 0.678);
     border: 12px groove black;
     height: 100%;
 }
 
-
 .contact-map-wrapper {
     width: 80%;
     margin: 20px auto;
-    /* padding: 10px;
-    background-color: rgba(255, 255, 255, 0.678);
-    padding: 10px;
-    border: 12px groove black; */
 }
 
+.contact-form, .contact-information {
+    flex: 1;
+    height: 400px;
+}
 .contact-channels{
     width: 80%;
     display: flex;
@@ -23,16 +24,12 @@
     padding: 10px;
     justify-content: center;
     padding: 10px;
-    
 }
 
-.map-info {
-    margin: 50px auto;
-}
+.contact-information img {
+    height:  100%;
+    width:  auto;
 
-.map-info iframe {
-    display: block;
-    margin: auto;
 }
 
 .contact-information-details ul {
@@ -41,6 +38,20 @@
     justify-content: space-around;
 }
 .contact-information-details ul li {
+    font-size: 1em;
+}
 
-    font-size: 1.5em;
+.map-info {
+    margin: 150px auto;
+}
+
+.map-info iframe {
+    display: block;
+    margin: auto;
+}
+
+.map-container {
+    width: fit-content;
+    padding: 5%;
+    margin: auto;
 }

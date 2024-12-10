@@ -17,7 +17,7 @@ getGallery().done( function(r) {
     r.forEach(element => {
         // Saco la extension y cambio los guiones por espacios
         let alt = element.split(".")[0].replace("-", " ")
-        let href = "./img/gallery/" + element
+        let href = "./img/inicio/gallery/" + element
         let image = document.createElement("img")
         image.setAttribute("src", href)
         image.setAttribute("alt", alt)
